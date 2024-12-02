@@ -1,0 +1,2 @@
+﻿  Space Shooter.cpp
+LINK : fatal error LNK1104: cannot open file 'sfml-audio-d.obj'
