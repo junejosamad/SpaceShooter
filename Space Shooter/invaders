@@ -1,0 +1,19 @@
+#ifndef INVADERS_H_
+#define INVADERS_H_
+
+#include "Enemy.h"
+
+class Invaders: public Enemy {
+public:
+	Invaders(){}
+	virtual void setimage(std::string png_path)=0;
+	virtual Sprite& eneimg()=0;
+	
+	virtual Texture& entext()=0;
+	
+	virtual ~Invaders(){}
+};
+
+ 
+
+#endif /* INVADERS_H_ */
