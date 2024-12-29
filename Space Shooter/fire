@@ -1,0 +1,21 @@
+#include"Addon.h"
+#ifndef FIRE_H_
+#define FIRE_H_
+
+class Fire:public Addon {
+public:
+Texture btex;
+Sprite bsprite;
+	public:
+Texture btex;
+Sprite bsprite;
+Fire(std::string png_path)
+{
+    btex.loadFromFile(png_path);
+    bsprite.setTexture(btex);
+   
+}
+	virtual ~Fire();
+};
+
+#endif 
