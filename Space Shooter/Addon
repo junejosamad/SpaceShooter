@@ -1,0 +1,16 @@
+#include <SFML/Graphics.hpp>
+using namespace sf;
+ 
+class Addon{
+protected:
+	Texture tex;
+	Sprite sprite;	
+public:
+	Addon(){}
+	virtual Sprite &powerimg()=0;
+	virtual Texture &powertext()=0;
+	~Addon(){}
+
+
+};
+ 
